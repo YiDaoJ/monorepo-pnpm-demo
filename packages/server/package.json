@@ -1,4 +1,7 @@
 {
   "name": "@testmono/server",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "stubr": "^0.5.1"
+  }
 }
