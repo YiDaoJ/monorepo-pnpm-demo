@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Button } from "@testmono/components";
+import { useState } from "react";
+import "./App.css";
+import reactLogo from "./assets/react.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -27,8 +28,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Button color="primary" onClick={() => console.log("hhh")}>
+        Test Me
+      </Button>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
