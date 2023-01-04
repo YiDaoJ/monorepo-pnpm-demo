@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:server": "cd packages/server && pnpm dev"
+    "dev:server": "cd packages/server && pnpm dev",
+    "dev:client": "cd packages/client && pnpm dev"
   },
   "keywords": [],
   "author": "",
